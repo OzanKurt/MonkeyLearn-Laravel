@@ -29,7 +29,7 @@ class MonkeyLearnServiceProvider extends ServiceProvider
         $this->app->singleton(Client::class, function () {
             $api_key = config('services.monkeylearn.api_key');
 
-            return new MonkeyLearn\Client($api_key);
+            return new Client($api_key);
         });
 
         $this->app->alias(Client::class, 'monkeylearn');
