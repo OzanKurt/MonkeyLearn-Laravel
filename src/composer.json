@@ -1,0 +1,27 @@
+{
+    "name": "ozankurt/monkeylearn-laravel",
+    "description": "",
+    "keywords": ["MonkeyLearn", "Laravel", "API"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ozan Kurt",
+            "email": "hello@ozankurt.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.6.*|5.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kurt\\MonkeyLearn\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kurt\\MonkeyLearn\\MonkeyLearnServiceProvider"
+            ]
+        }
+    }
+}
