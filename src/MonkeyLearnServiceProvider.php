@@ -1,6 +1,6 @@
 <?php
 
-namespace Kurt\MonkeyLearn\Providers;
+namespace Kurt\MonkeyLearn;
 
 use MonkeyLearn\Client;
 use Illuminate\Support\ServiceProvider;
