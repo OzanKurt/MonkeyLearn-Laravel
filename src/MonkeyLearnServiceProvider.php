@@ -24,7 +24,7 @@ class MonkeyLearnServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        include_once __DIR__.'/../helpers.php';
+        include_once __DIR__.'/helpers.php';
 
         $this->app->singleton(Client::class, function () {
             $api_key = config('services.monkeylearn.api_key');
